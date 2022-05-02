@@ -4,10 +4,10 @@ void main(List<String> args) {
   MyModel model = MyModel();
   model
     ..id = 5
-    ..name = "StringName";
+    ..name = "????";
   NameModel nameModel = NameModel()
     ..id = 5
-    ..name = "123";
+    ..name = "456";
   print(model);
   print(nameModel);
 }

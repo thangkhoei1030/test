@@ -5,5 +5,9 @@ void main(List<String> args) {
   model
     ..id = 5
     ..name = "StringName";
+  NameModel nameModel = NameModel()
+    ..id = 5
+    ..name = "123";
   print(model);
+  print(nameModel);
 }

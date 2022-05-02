@@ -16,3 +16,21 @@ class MyModel {
     return data;
   }
 }
+class NameModel {
+
+  int? id;
+  String? name;
+
+  NameModel({ this.id, this.name });
+
+  NameModel.fromJson(Map<String, dynamic> json){
+      this.id = json['id'];
+      this.name = json['name'];
+  }
+
+  Map<String, dynamic> toJson(){
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['name'] = this.name;
+    return data;
+  }
+}
